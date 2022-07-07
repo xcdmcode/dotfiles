@@ -1,7 +1,6 @@
 # Enable colors and change prompt:
 autoload -U colors && colors	# Load colors
 PROMPT="[%n@%m %~]$ "
-#RPROMPT="%Bﱮ %~"
 ZLE_RPROMPT_INDENT=0
 setopt autocd	    # Automatically cd into typed directory.
 stty stop undef	    # Disable ctrl-s to freeze terminal.
